@@ -1,0 +1,113 @@
+body {
+    font-family: Lato;
+    background-color: #3d4242;
+    color: #dde7e6;
+    text-align: center;
+}
+#mups_logo {
+    display: block;
+    margin: 20px auto;
+    margin-top: 200px;
+}
+#mainHeading, #mainSubHeading{
+    margin: 0;
+}
+input[type=button] {
+    width: 220px;
+    height: 70px;
+    margin: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #3d4242;
+    font-family: Lato;
+    color: #dde7e6;
+    border: 4px #dde7e6 solid;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #dde7e6;
+    color: #3d4242;
+}
+.leg {
+    font-size: 26px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+    margin: 10px;
+}
+form[name="loginform"] {
+    width: 500px;
+    height: 270px;
+    padding: 30px;
+    display: block;
+    margin: 20px auto;
+    border: 2px #dde7e6 solid;
+}
+form[name="registerform"] {
+    width: 500px;
+    height: 650px;
+    padding: 30px;
+    display: block;
+    margin: 20px auto;
+    border: 2px #dde7e6 solid;
+}
+input[type="username"], input[type="password"], input[type="text"] {
+    background-color: black;
+    height: 35px;
+    border-radius: 20px;
+    color: #dde7e6;
+}
+ul.labels-form {
+    display: inline-block;
+    line-height: 35px;
+    padding-left: 0;
+    width: 140px;
+    text-align: right;
+}
+ul.input-form {
+    display: inline-block;
+    padding-left: 10px;
+}
+.form-submit input[type=button] {
+    margin: 0;
+    padding: 0;
+}
+#loginfail {
+    margin: 0;
+    padding: 0;
+    display: hidden;
+    color: #3d4242;
+}
+h2.med-types {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 38px;
+    margin-top: 150px;
+}
+#ovc, #femprod, #contracep {
+    font-family: Lato;
+    width: 300px;
+    padding: 10px;
+    background-color: #dde7e6;
+}
+#place-order-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#order-summary {
+    margin-top: 250px;
+    font-size: 70px;
+}
+#thank-you {
+    font-size: 30px;
+}
+#go-homepage {
+    width: 320px;
+}

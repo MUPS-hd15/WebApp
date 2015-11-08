@@ -29,7 +29,9 @@ app.use('/',router);
 app.listen(3000);
 console.log("Listening to PORT 3000");*/
 
-
+function register() {
+    window.location = "registerlogin.html";
+}
 function validateCredentials() {
     var users = [
     {"username":"user1", "password":"12345"},
@@ -57,17 +59,20 @@ function validateCredentials() {
     });
     if (Boolean(matching)) {
         //alert("Login successful");
-        window.location = "orderpage.html";
+        window.location = "order.html";
     }
     else {
         $("#loginfail").html("Your username or password is incorrect.").css({"color":"red"});;
     }
 }
 function createAccount() {
-    window.location = "orderpage.html";
+    window.location = "order.html";
 }
 function getStatus() {
     window.location = "orderSummary.html";
+}
+function goHome() {
+    window.location = "index.html";
 }
 
 
