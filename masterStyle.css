@@ -111,3 +111,10 @@ h1 {
 #go-homepage {
     width: 320px;
 }
+#highlight {
+    background-color: #dc661f;
+    color: #3d4242;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
