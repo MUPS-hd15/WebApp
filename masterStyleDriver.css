@@ -1,0 +1,92 @@
+body {
+    font-family: Lato;
+    background-color: #3d4242;
+    color: #dde7e6;
+    text-align: center;
+}
+#map {
+    background-image: url(map.png);
+    background-size: 120%;
+    color: black;
+    text-align: left;
+}
+#pinhead {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+}
+#pinneedle {
+    height: 20px;
+    width: 2px;
+    background-color: gray;
+    position: absolute;
+    left: 5px;
+}
+#location {
+    position: absolute;
+    left: 269px;
+    top: 598px;
+}
+img {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+}
+#bubble {
+    width: 350px;
+    height: 35px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    left: 273px;
+    top: 550px;
+    cursor: pointer;
+}
+#bubble p {
+    text-align: center;
+    line-height: 35px;
+}
+#notification {
+    background-color: #3d4242;
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#notification img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.noti {
+    list-style: none;
+    color: #dde7e6;
+    text-align: center;
+    line-he
+}
+input[type=button] {
+    width: 220px;
+    height: 70px;
+    margin: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #3d4242;
+    font-family: Lato;
+    color: #dde7e6;
+    border: 4px #dde7e6 solid;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #dde7e6;
+    color: #3d4242;
+}
+li {
+    list-style: none;
+}
+h1 {
+    margin-top: 130px;
+}

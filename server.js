@@ -74,7 +74,13 @@ function getStatus() {
 function goHome() {
     window.location = "index.html";
 }
-
+function getTaskList() {
+    
+    window.location = "driver2.html";
+}
+function goBack() {
+    window.location = "driver1.html";
+}
 
 
 /*
