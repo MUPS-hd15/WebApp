@@ -7,10 +7,10 @@
 	<h1>Place Your Order</h1>
 </head>
 <legend><b>Over-The-Counter Medication</b></legend>
-<select>
+<select id="ovc">
 	<option value="select">Select an option</option>
 	<option value="painkillers">Painkillers</option>
-	<option value="coldmeds">Cold</option>
+	<option value="coldmedicine">Cold</option>
 	<option value="stomach">Stomach Trouble</option>
 	<option value="firstaid">First Aid</option>
 </select>
@@ -18,23 +18,23 @@
 
 <p>
 <legend><b>   Feminine Products</b></legend>
-<select>
+<select id="femprod">
 	<option value="select">Select an option</option>
-	<option value="pads">Pads</option>
+	<option value="periodpads">Pads</option>
 	<option value="tampons">Tampons</option>
 </select>
 <br>
 <p>
 <legend><b>Contraceptives</b></legend>
-<select>
+<select id="contracep">
 	<option value="select">Select an option</option>
-	<option value="male_condom">Male Contraceptives</option>
-	<option value="female_condom">Female Contraceptives</option>
-	<option value="planb_pregtest">Plan B/Pregnancy Tests</option>	
+	<option value="malecondom">Male Contraceptives</option>
+	<option value="femalecondom">Female Contraceptives</option>
+	<option value="planbpregnancy">Plan B/Pregnancy Tests</option>	
 </select>
 <br>
 <br>
-<button>NEXT</button>
+<input type="button" value="next" onclick="getStatus()">
 </div>
 
 <div style: "text-align:center;">
@@ -49,7 +49,10 @@
     	
 		}
 		legend {position:relative; left:42%; }
+    </style>
 	</div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="server.js"></script>
+</body>
 
 </html>

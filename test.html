@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Login</h1>
+        <form name="loginform">
+            <ul>
+                <li>
+                <label for="username">Username</label>
+                <input type="username" name="username" placeholder="Username" required>
+                </li>
+                <li>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="password" required></li>
+                <li><input type="button" value="Login" onclick="validateCredentials()"></li>
+            </ul>
+        </form>
+        <h1>Create an account</h1>
+        <form name="accountcreate" onclick="createAccount">
+            <ul>
+                <li>
+                    <label for="newusername">Username*</label>
+                    <input type="username" name="newusername" placeholder="Username" required>
+                </li>
+                <li>
+                    <label for="newpassword">Password*</label>
+                    <input type="password" name="newpassword" placeholder="paswsword" required>
+                </li>
+                <li><input type="button" value="Submit"></li>
+            </ul>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="server.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

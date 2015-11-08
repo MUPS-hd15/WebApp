@@ -7,16 +7,17 @@
 
 <body>
     <div id="wrapper">
-        <form  method ="link" action="orderpage.html" type="button">
+        <form name="loginform">
             <fieldset>
                 <legend>Login</legend>
                 <div>
-                    <input type="text" name="email" placeholder="Email"/>
+                    <input type="username" name="username" placeholder="Username">
                 </div>
                 <div>
-                    <input type="password" name="first_name" placeholder="Password"/>
+                    <input type="password" name="password" placeholder="Password">
                 </div>
-                <input type="submit" name="submit" value="Login"/>
+                <p id="loginfail"></p>
+                <input type="button" name="submit" value="Login" onclick="validateCredentials()"/>
 <style type="text/css">
          body {
           color: blue;
@@ -71,7 +72,7 @@
                 </div>
 
 
-                <input type="submit" name="submit" value="DONE"/>
+                <input type="button" name="submit" value="DONE" onclick="createAccount()"/>
 
             
         
@@ -84,6 +85,8 @@
             </fieldset>    
     </form>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="server.js"></script>
 </body>
 
 
