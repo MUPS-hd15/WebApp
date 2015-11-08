@@ -1,0 +1,79 @@
+[33mcommit 07870f4f87959faba504151619a792540f97eca0[m
+Author: Sakura YA <Sakura YA>
+Date:   Sun Nov 8 01:53:34 2015 -0500
+
+    html5
+
+[33mcommit 1b2295cdc209c567394a3fc7a4ec87e3f388fd5a[m
+Author: Sakura YA <Sakura YA>
+Date:   Sun Nov 8 01:49:10 2015 -0500
+
+    order page, not linked
+
+[33mcommit 9169746a62e36fd16682fd475eb3118177ecf231[m
+Merge: b8d94b2 85efad9
+Author: Sakura YA <Sakura YA>
+Date:   Sun Nov 8 01:03:21 2015 -0500
+
+    sorry
+
+[33mcommit b8d94b2fd28cdb534caf7eb3ef1d56271468fb77[m
+Author: Sakura YA <Sakura YA>
+Date:   Sun Nov 8 01:00:52 2015 -0500
+
+    notready
+
+[33mcommit 85efad9f633c152ccdeaa4262c8141863cc0146a[m
+Author: bcarly <bcarly@vt.edu>
+Date:   Sun Nov 8 00:57:23 2015 -0500
+
+    updated
+
+[33mcommit be195041e660c5398d97b5d6049336e6f2f70340[m
+Merge: 5d0106e 0b3276c
+Author: bcarly <bcarly@vt.edu>
+Date:   Sun Nov 8 00:01:58 2015 -0500
+
+    Merge branch 'master' of https://github.com/MUPS-hd15/WebApp
+
+[33mcommit 0b3276cc158412016fe50ab54e959d1ebdb1fd95[m
+Author: Sakura YA <Sakura YA>
+Date:   Sun Nov 8 00:00:47 2015 -0500
+
+    register_login2
+
+[33mcommit 5d0106e1b251b7f98e893f78f3d9a94e151788ab[m
+Author: bcarly <bcarly@vt.edu>
+Date:   Sat Nov 7 23:23:56 2015 -0500
+
+    Homepage v2
+
+[33mcommit cead3b0386f3c8b7990cbaf96bd427d54c379f7e[m
+Author: Sakura YA <Sakura YA>
+Date:   Sat Nov 7 23:08:08 2015 -0500
+
+    registerlogin css file
+
+[33mcommit 1acc11e1f4ec151931c7613fc3baaee850ee18c9[m
+Author: Sakura YA <Sakura YA>
+Date:   Sat Nov 7 22:52:36 2015 -0500
+
+    registerlogin
+
+[33mcommit 40a482e2129ad14727086e76ddfee20a01c0bf45[m
+Author: Sakura YA <Sakura YA>
+Date:   Sat Nov 7 22:27:05 2015 -0500
+
+    homepage
+
+[33mcommit 1218fd9384c2f448000553337cf0ef8c9541a5e1[m
+Author: bcarly <bcarly@vt.edu>
+Date:   Sat Nov 7 21:21:15 2015 -0500
+
+    Test file commit
+
+[33mcommit 4856c0a2c887be506236b4e456109e73c22569b4[m
+Author: sakuraya10 <sakura.anning.yoshihara@duke.edu>
+Date:   Sat Nov 7 21:03:28 2015 -0500
+
+    Initial commit
